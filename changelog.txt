@@ -1,0 +1,4 @@
+BillingSoftware v1.0.9
+
+Changes since v1.0.8:
+- Fix blank AutoUpdater changelog panel: publish it via raw.githubusercontent, not as a release asset
