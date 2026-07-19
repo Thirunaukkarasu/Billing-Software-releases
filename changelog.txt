@@ -1,4 +1,44 @@
-BillingSoftware v1.0.9
+BillingSoftware v1.0.10
 
-Changes since v1.0.8:
+Changes since v1.0.9:
+- Split Company Settings into tabs, fix design issues, fix language-restart bug
+- Fix 13 UI/UX issues from user bug report (Issues.txt)
+- Phase 7: bank accounts, party pricing, custom fields, auto-messaging, prefixes, zoom
+- Phase 6: teal identity, onboarding wizard, empty states, getting-started checklist
+- Phase 5: multi-language UI (Hindi + Tamil)
+- Phase 5: mobile companion architecture + MAUI scaffold
+- Phase 5: e-invoice/e-way bill fixes verified against real NIC docs
+- Phase 5: delivery challan + proforma invoice document types
+- Phase 5: Tally import/export
+- Phase 5: online payments + reminders (Razorpay links, webhook reconciliation)
+- Phase 5: staff logins with roles/permissions (fixes S3 authz gap)
+- Phase 4: licensing & subscription (signed keys, hard-lock gate, cloud authority, Razorpay)
 - Fix blank AutoUpdater changelog panel: publish it via raw.githubusercontent, not as a release asset
+- Phase 3: fix /download to point at the real public release
+- Phase 2 (stability + trust): crash logging, backup safety, first tests
+- Phase 1 (S5): fail-closed sync-ingest auth + constant-time key compare
+- Phase 1 (partial): PBKDF2 local login with verify-and-upgrade, login throttle
+- Phase 0: remove admin/admin login prefill, stop shipping live Gemini key
+- Add app improvement report: security, feature gaps, roadmap
+- Add /blog: MDX content collection, 4 GST posts, RSS feed
+- Add the SEO surface: tools, formats, industries, comparisons
+- Add saffron secondary to the marketing palette
+- Add marketing website (Astro static site) in Web/
+- Seed a real "Walk-in Customer" row into every business database
+- Cash Memos: color the view-items icon, rebalance column widths
+- Cash Memos: view items via popup, matching Customers page convention
+- Cash Memos: expandable rows show line items and prices
+- SeedTool: add Cash Memo test data (SeedCashMemos + --cash-memos-only)
+- QuickBilling: add breathing room between favourite tiles and scrollbar
+- Fix grid product picker: remove IsEditing race that ate the first Enter
+- Fix grid product picker: Enter silently discarded the highlighted product
+- QuickBilling: simplify product dropdown, tidy favourites, fix grid Enter
+- QuickBilling: richer product dropdown + redesigned right panel
+- Fix Cash Memos filter alignment + tidy QuickBilling favourite tiles
+- Cash Memos page: rebuild on the shared design system
+- QuickBilling: hold / park a bill and resume it (P2)
+- Reports/GST: exclude consolidated cash memos to avoid double-counting (P5)
+- Cash Memos screen: consolidate memos into a Tax Invoice (P3+P4)
+- QuickBilling: keep favourites strip populated when most-sold query fails
+- QuickBilling: favourites grid + dynamic Cash Memo / Tax Invoice badge
+- Cash Memo document type: schema + QuickBilling default
