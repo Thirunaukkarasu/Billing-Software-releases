@@ -1,4 +1,4 @@
-BillingSoftware v1.0.13
+BillingSoftware v1.0.14
 
-Changes since v1.0.12:
-- ci: add Azure Static Web Apps workflow file on-behalf-of: @Azure opensource@microsoft.com
+Changes since v1.0.13:
+- Add or update the Azure App Service build and deployment workflow config
