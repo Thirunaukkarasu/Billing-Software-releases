@@ -1,31 +1,4 @@
-BillingSoftware v1.0.12
+BillingSoftware v1.0.13
 
-Changes since v1.0.11:
-- Fix DASHBOARD_API_PROXY: process.env doesn't see Web/.env in astro.config.mjs
-- Fix local dashboard dev auth (dead-on-arrival) and a wwwroot-deletion crash
-- Add a Sign in entry point from the marketing site to the dashboard
-- Move cloud dashboard UI into the Astro site; SyncApi is now API-only
-- Auto-restart on Save Changes when theme/language was changed
-- Extend MahApps dark-mode overrides to ContextMenu, RadioButton, CheckBox
-- Fix TextBox/ComboBox/DatePicker staying white in dark mode
-- Finish dark-mode background sweep across remaining view files
-- Sweep hardcoded backgrounds across Views for dark-mode support
-- Add Light/Dark/System theming: quick title-bar toggle + full Settings picker + real dark palette
-- Regroup left-nav sidebar into a clearer information architecture
-- Gate cloud sync push worker on the CloudSync licence feature
-- Soften licence lock to hybrid model: paid tiers never hard-lock
-- Marketing site: hybrid pricing (own-once + optional yearly updates/cloud)
-- Add Basic/Standard/Premium subscription screen-gating
-- Carry unit conversion factor through purchase returns and reports
-- Add Multi-UOM support to sales, quotation, and printing
-- Redesign tabs as a segmented control app-wide; rewire Purchase Multi-UOM unit picker
-- Continue localization pass; fix AddProduct tab redesign and Multi-UOM grid styling
-- Rotate the license-signing keypair (original private key lost, pre-launch)
-- Fix A5 print left-edge truncation: force template paper size on print ticket
-- Localize remaining WPF views
-- Fix the same DataGrid star-column squeeze bug in 2 more grids
-- Fix Sales page margin mismatch and DataGrid column truncation
-- Use proportional widths for Sales grid columns instead of fixed widths
-- Adjust page layouts: remove Add Purchase max-width and fix Sales grid columns
-- Simplify language fix: set Resources.Culture to actually switch resource culture
-- Fix language localization not persisting after restart (Tamil/Hindi)
+Changes since v1.0.12:
+- ci: add Azure Static Web Apps workflow file on-behalf-of: @Azure opensource@microsoft.com
