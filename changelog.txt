@@ -1,6 +1,7 @@
 BillingSoftware v1.0.15
 
 Changes since v1.0.14:
+- Set PUBLIC_API_BASE_URL in the Web deploy workflow
 - Fix release.yml: remove invalid 'workflows' permission scope
 - Fix dashboard not loading data: SWA Free can't proxy /api/* cross-origin
 - Fix release workflow tag-push and App Service deploy for monorepo
