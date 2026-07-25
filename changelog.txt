@@ -1,7 +1,19 @@
-BillingSoftware v1.0.15
+BillingSoftware v1.0.16
 
-Changes since v1.0.14:
+Changes since v1.0.15:
+- Document Play Store readiness and deployment steps for the mobile app
+- Add Tier 1 screens to the mobile companion app
+- Add Tier 1 dashboard screens: payments, ledger, credit notes, expenses, challans, day close, cheques
+- Unify dialog header design across Quick Add, Add Customer, and Customer Invoices popups
+- Expand Business Analytics with charts and redesign QuickAdd dialogs
+- Add Manage Businesses page, gated to the Owner role only
+- Add SyncApi CI deploy workflow, Postman collection, and localize-view skill
+- Fix unit-dropdown styling, consolidate billing-type picker, add report side-nav
+- Replace placeholder brand glyph and fix stale pre-rebrand blue leftovers
+- Roll out the final app icon to Windows, Mobile, and Web
+- Dropdown issue fixes
+- Widen Compact A5 template margins to clear printer unprintable area
+- Wire the mobile app to the deployed dashboard API and build out all screens
+- Add a real app icon and OG share image, replacing the placeholder letter mark
+- Route download CTAs through /download and make it a real direct download
 - Set PUBLIC_API_BASE_URL in the Web deploy workflow
-- Fix release.yml: remove invalid 'workflows' permission scope
-- Fix dashboard not loading data: SWA Free can't proxy /api/* cross-origin
-- Fix release workflow tag-push and App Service deploy for monorepo
