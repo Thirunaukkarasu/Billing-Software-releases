@@ -1,4 +1,4 @@
-BillingSoftware v1.0.18
+BillingSoftware v1.0.19
 
-Changes since v1.0.17:
-- Add Tier 2 screens to the mobile companion app, fix a status-color gap
+Changes since v1.0.18:
+- Apply the app's branded title bar style to Quick Add, Add Customer, and Customer Invoices popups
