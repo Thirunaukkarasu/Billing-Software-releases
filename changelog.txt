@@ -1,4 +1,4 @@
-BillingSoftware v1.0.19
+BillingSoftware v1.0.20
 
-Changes since v1.0.18:
-- Apply the app's branded title bar style to Quick Add, Add Customer, and Customer Invoices popups
+Changes since v1.0.19:
+- Fix mobile-Safari dashboard login loop: bearer token instead of cross-site cookie
