@@ -1,5 +1,4 @@
-BillingSoftware v1.0.17
+BillingSoftware v1.0.18
 
-Changes since v1.0.16:
-- Fix two Tier 2 gaps: supplier names on cheques, category-grouped analytics
-- Add Tier 2: Purchases sync + live cloud Analytics (windows app, API, web)
+Changes since v1.0.17:
+- Add Tier 2 screens to the mobile companion app, fix a status-color gap
