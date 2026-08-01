@@ -1,4 +1,8 @@
-BillingSoftware v1.0.23
+BillingSoftware v1.0.24
 
-Changes since v1.0.22:
-- License critical issue fixes and email
+Changes since v1.0.23:
+- Add UPI QR generator to marketing site
+- Fix silently dropped fields in hand-written DTO<->entity mappers
+- Add HSN/SAC finder, e-way bill checker and late-fee calculator tools
+- Add free GSTIN validator tool to marketing site
+- Add free quotation generator tool to marketing site
