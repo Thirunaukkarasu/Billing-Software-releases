@@ -1,11 +1,4 @@
-BillingSoftware v1.0.22
+BillingSoftware v1.0.23
 
-Changes since v1.0.21:
-- design and shortcut fix
-- Document the shared-API-key weakness and a staged fix
-- Update handoff docs and re-sync the committed memory folder
-- Add admin-only /api/license/rebind for reassigning an install
-- Check in with the license server when no local token exists
-- Split grace per plan, dedupe TrialDays, harden trial against reinstall
-- Replace persisted status literals with constants; drop dead Sqlite config
-- Fix low-stock threshold inconsistency and the Out of Stock filter
+Changes since v1.0.22:
+- License critical issue fixes and email
