@@ -1,12 +1,11 @@
-BillingSoftware v1.0.21
+BillingSoftware v1.0.22
 
-Changes since v1.0.20:
-- Add WhatsApp document sharing, mobile session persistence, and design-system fixes
-- Fix bill-level discount and purchase-driven pricing bugs
-- Add DB-backed CustomerType and PaymentMethod lookups
-- Prompt for a reason when voiding a credit note
-- Fix stale "(uncommitted)" labels in OPEN-ITEMS.md now that those commits landed
-- Fix UI/UX audit findings: dead nav, broken chart data, duplicate customer, missing empty states
-- Add loyalty redemption UI, WhatsApp Cloud API sending, and serial/IMEI + warranty tracking
-- Add a reusable full-app screenshot script and capture a UI/UX audit baseline
-- Add Razorpay per-tier checkout, license tier picker, and fix a navigation lifecycle bug
+Changes since v1.0.21:
+- design and shortcut fix
+- Document the shared-API-key weakness and a staged fix
+- Update handoff docs and re-sync the committed memory folder
+- Add admin-only /api/license/rebind for reassigning an install
+- Check in with the license server when no local token exists
+- Split grace per plan, dedupe TrialDays, harden trial against reinstall
+- Replace persisted status literals with constants; drop dead Sqlite config
+- Fix low-stock threshold inconsistency and the Out of Stock filter
