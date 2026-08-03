@@ -1,8 +1,18 @@
-BillingSoftware v1.0.24
+BillingSoftware v1.0.25
 
-Changes since v1.0.23:
-- Add UPI QR generator to marketing site
-- Fix silently dropped fields in hand-written DTO<->entity mappers
-- Add HSN/SAC finder, e-way bill checker and late-fee calculator tools
-- Add free GSTIN validator tool to marketing site
-- Add free quotation generator tool to marketing site
+Changes since v1.0.24:
+- Design fixes
+- Add right-edge border to Grid.Header so columns are visually separated
+- Remove oversized 5px border override on Day Close history grid
+- Memory: add working notes for 2026-08-02 session, update index
+- Docs: index 2026-08-02 session (UI/UX punch list, NIC creds, mobile crash fixes, repricing)
+- Web: drop SQLite/append-only jargon, plain-language pass on data-ownership copy
+- Color-code status messages by severity; fix DeliveryChallan customer/product search
+- Fix WPF UI/UX punch list: dark-theme contrast, grid resize, tab redesigns
+- Move NIC e-Invoice/e-Way Bill credentials to per-business Company row
+- Fix stray FlyoutBehavior toggle crash and theme-not-persisting on cold start
+- Reprice licence tiers with a real founding-customer offer, gate updates on renewal
+- Fix runaway layout loop in Segmented control, wire up dashboard sparkline
+- Redesign the mobile app UI: "Ledger" design system
+- licensing update
+- Add pagination to list/report grids that grow long with real records
