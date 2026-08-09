@@ -1,5 +1,4 @@
-BillingSoftware v1.0.26
+BillingSoftware v1.0.27
 
-Changes since v1.0.25:
-- Set default business
-- Fix duplicate-line return cap, implement report queries, wire into Reports UI
+Changes since v1.0.26:
+- Design issue fix
