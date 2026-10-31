@@ -1,7 +1,6 @@
-BillingSoftware v1.0.29
+BillingSoftware v1.0.30
 
-Changes since v1.0.28:
-- Mobile design pass: login, dashboard, invoice rows, tab headers
-- Fix mobile app review bugs and server dashboard double-counting
-- Website redesign with real app screenshots; fix three app chart bugs
-- Fix website copy to match the app, fix three tool bugs, add sales roadmap
+Changes since v1.0.29:
+- Website: six new free tools; launch checklist in OPEN-ITEMS
+- Website: animated billing demo, mobile download bar, richer CTAs
+- Website lead capture, screenshot frame fix, tighter page spacing
