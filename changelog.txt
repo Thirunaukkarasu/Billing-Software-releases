@@ -1,6 +1,5 @@
-BillingSoftware v1.0.30
+BillingSoftware v1.0.31
 
-Changes since v1.0.29:
-- Website: six new free tools; launch checklist in OPEN-ITEMS
-- Website: animated billing demo, mobile download bar, richer CTAs
-- Website lead capture, screenshot frame fix, tighter page spacing
+Changes since v1.0.30:
+- Quick Billing: per-business persistent held bills, swap, discard, Day Close warning
+- Barcode scanning: existing-product lookup, duplicate guard, grid scan fix
