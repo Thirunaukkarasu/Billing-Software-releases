@@ -1,5 +1,5 @@
-BillingSoftware v1.0.31
+BillingSoftware v1.0.32
 
-Changes since v1.0.30:
-- Quick Billing: per-business persistent held bills, swap, discard, Day Close warning
-- Barcode scanning: existing-product lookup, duplicate guard, grid scan fix
+Changes since v1.0.31:
+- Performance: stop idle spinner CPU, cache migration check, lighter queries
+- Barcode validation fixes: grid scan Enter, Insert, Scan Barcode tab, duplicate check
