@@ -1,5 +1,4 @@
-BillingSoftware v1.0.32
+BillingSoftware v1.0.33
 
-Changes since v1.0.31:
-- Performance: stop idle spinner CPU, cache migration check, lighter queries
-- Barcode validation fixes: grid scan Enter, Insert, Scan Barcode tab, duplicate check
+Changes since v1.0.32:
+- Fit dialogs on small screens, redesign Add Customer, fix low-res layouts
