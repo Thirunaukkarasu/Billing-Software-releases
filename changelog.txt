@@ -1,4 +1,4 @@
-BillingSoftware v1.0.33
+BillingSoftware v1.0.34
 
-Changes since v1.0.32:
-- Fit dialogs on small screens, redesign Add Customer, fix low-res layouts
+Changes since v1.0.33:
+- Dialog design audit: fix broken layouts, unify chrome and colours
