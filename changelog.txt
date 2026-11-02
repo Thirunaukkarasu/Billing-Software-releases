@@ -1,4 +1,4 @@
-BillingSoftware v1.0.34
+BillingSoftware v1.0.35
 
-Changes since v1.0.33:
-- Dialog design audit: fix broken layouts, unify chrome and colours
+Changes since v1.0.34:
+- Updated licence key
