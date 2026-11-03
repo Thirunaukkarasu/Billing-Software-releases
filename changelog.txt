@@ -1,4 +1,7 @@
-BillingSoftware v1.0.35
+BillingSoftware v1.0.36
 
-Changes since v1.0.34:
-- Updated licence key
+Changes since v1.0.35:
+- Phone app: SMS sign-in, cloud accounts, shop pairing, collected payments
+- Fix multi-unit pricing bugs in billing and quotation
+- Wire Add Product's Bulk Import button to the real importer
+- Mobile app: Expo free-tier billing app (MobileApp/)
