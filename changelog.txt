@@ -1,7 +1,7 @@
-BillingSoftware v1.0.36
+BillingSoftware v1.0.37
 
-Changes since v1.0.35:
-- Phone app: SMS sign-in, cloud accounts, shop pairing, collected payments
-- Fix multi-unit pricing bugs in billing and quotation
-- Wire Add Product's Bulk Import button to the real importer
-- Mobile app: Expo free-tier billing app (MobileApp/)
+Changes since v1.0.36:
+- Harden phone/PC sync: unique invoice lookup, heartbeat, retries, restore recovery
+- Force a new password when signing in with the default admin/admin
+- Require an install credential on /api/auth/check-username
+- Value stock ex-GST, fix GSTR invoice value and discount-amount setter
