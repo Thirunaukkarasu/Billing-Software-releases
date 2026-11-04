@@ -1,7 +1,4 @@
-BillingSoftware v1.0.37
+BillingSoftware v1.0.38
 
-Changes since v1.0.36:
-- Harden phone/PC sync: unique invoice lookup, heartbeat, retries, restore recovery
-- Force a new password when signing in with the default admin/admin
-- Require an install credential on /api/auth/check-username
-- Value stock ex-GST, fix GSTR invoice value and discount-amount setter
+Changes since v1.0.37:
+- Phone: shop bill list, bill detail and PDF with offline copy
