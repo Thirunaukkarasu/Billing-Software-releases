@@ -1,4 +1,5 @@
-BillingSoftware v1.0.38
+BillingSoftware v1.0.39
 
-Changes since v1.0.37:
-- Phone: shop bill list, bill detail and PDF with offline copy
+Changes since v1.0.38:
+- Phone orders to the shop PC, licence one-time checkout, and two phone-sync follow-ups
+- Save purchases in one transaction and move stock by delta
