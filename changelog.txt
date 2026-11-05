@@ -1,5 +1,6 @@
-BillingSoftware v1.0.39
+BillingSoftware v1.0.40
 
-Changes since v1.0.38:
-- Phone orders to the shop PC, licence one-time checkout, and two phone-sync follow-ups
-- Save purchases in one transaction and move stock by delta
+Changes since v1.0.39:
+- Rotate the licence signing key
+- Document how to put the licence signing key on the server
+- Require the install key on licence calls once it has been issued
