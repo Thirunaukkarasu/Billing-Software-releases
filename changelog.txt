@@ -1,7 +1,10 @@
-BillingSoftware v1.0.43
+BillingSoftware v1.0.44
 
-Changes since v1.0.42:
-- Phone UPI collection for orders, clearer sign-in errors, PC update prompt
-- Dashboard: even stat-card rows, centred empty chart, app icon logo
-- Use the refreshed Canva app icon everywhere
-- Phone: shop switcher and a way out of sample data
+Changes since v1.0.43:
+- Keep me signed in for the day, password-free business switch, Log out
+- Mobile Pro purchase: Razorpay checkout on the phone
+- Mobile Pro prices on the website and in the phone app
+- Phone: shop logo on bills for paid users (Mobile Pro)
+- PDF tests: render a 42-line bill with a logo across pages
+- Redesign the bill PDF on phone and web to one shared layout
+- build-apk: refresh the native project on every build
