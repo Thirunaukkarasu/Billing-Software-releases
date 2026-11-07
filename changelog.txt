@@ -1,6 +1,7 @@
-BillingSoftware v1.0.40
+BillingSoftware v1.0.41
 
-Changes since v1.0.39:
-- Rotate the licence signing key
-- Document how to put the licence signing key on the server
-- Require the install key on licence calls once it has been issued
+Changes since v1.0.40:
+- Sign the licence token before issuing an install key
+- Point the Azure Postman environment at the BillingSync app
+- Fix the Azure licensing-keys script rejected with "invalid value"
+- Add a script that puts the licensing keys on Azure
