@@ -1,20 +1,6 @@
-BillingSoftware v1.0.45
+BillingSoftware v1.0.46
 
-Changes since v1.0.44:
-- Phone: expenses and profit, supplier khata, day-end summary, reorder, app lock
-- Docs: testing backlog of features built but not yet tested for real
-- Automatic WhatsApp: invoice PDF after each bill, unattended payment reminders
-- Phone: edit items/customers, stock in/out, cancel bills, staff rules, statement
-- Import Data screen: move customers, suppliers and items from other apps
-- Shop phones: screen, sync wiring and tests for the shared shop
-- Mobile Pro: share one shop across several phones
-- Fix purchase delete, drop fake Save Draft, repair history-less DBs
-- Show the update toast on the login screen too
-- Mobile Pro: print bills on a Bluetooth receipt printer (Android)
-- Phone: enforce the free plan's 50 bills a month
-- Mobile Pro: camera barcode scanning while billing
-- Mobile Pro: monthly GST report on the phone
-- Mobile Pro: cloud backup for phone-only shops
-- Settings: show the shop's Razorpay webhook URL with a Copy button
-- Docs: Razorpay setup guide for cloud, Windows, phone and website
-- Desktop: drop the welcome toast after login; update notice in red
+Changes since v1.0.45:
+- Billing: keyboard map, Quick Billing/Quotation redesign, supplier GSTIN, bill charges
+- Download buttons: link to fixed-name release assets instead of GitHub API
+- Testing backlog: latest phone features
