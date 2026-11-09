@@ -1,4 +1,5 @@
-BillingSoftware v1.0.47
+BillingSoftware v1.0.48
 
-Changes since v1.0.46:
-- UI: readable billing screens, colour by meaning, shared list/hint sizing
+Changes since v1.0.47:
+- UI: product-list look on list screens; sidebar folds on more screens
+- Fix SQLite decimal Sum() in four repository queries
