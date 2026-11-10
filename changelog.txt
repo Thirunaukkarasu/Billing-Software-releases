@@ -1,5 +1,9 @@
-BillingSoftware v1.0.48
+BillingSoftware v1.0.49
 
-Changes since v1.0.47:
-- UI: product-list look on list screens; sidebar folds on more screens
-- Fix SQLite decimal Sum() in four repository queries
+Changes since v1.0.48:
+- Phone: keep the camera permission so barcode and QR scanning work
+- Phone (Mobile Pro): purchases, POs, challans, returns, cheques, analytics
+- Opening balance on Add/Edit Customer and Quick Add Supplier
+- Billing: IGST for other states, last rate, round-off, payment checks, purchase charges
+- Phone: reopen cloud shop after relaunch; port old app's shop screens
+- UI: ledgers fit their grids, stronger business picker, sidebar folds on ledgers
