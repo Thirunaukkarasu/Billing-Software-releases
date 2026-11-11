@@ -1,9 +1,14 @@
-BillingSoftware v1.0.49
+BillingSoftware v1.0.50
 
-Changes since v1.0.48:
-- Phone: keep the camera permission so barcode and QR scanning work
-- Phone (Mobile Pro): purchases, POs, challans, returns, cheques, analytics
-- Opening balance on Add/Edit Customer and Quick Add Supplier
-- Billing: IGST for other states, last rate, round-off, payment checks, purchase charges
-- Phone: reopen cloud shop after relaunch; port old app's shop screens
-- UI: ledgers fit their grids, stronger business picker, sidebar folds on ledgers
+Changes since v1.0.49:
+- CI: Dependabot PRs build the website without trying to deploy
+- Fix build: commit SqliteBackup.cs (was silently gitignored)
+- Phone: item and bill discounts on bills, before GST like the desktop
+- Phone: one bad shared-shop change no longer freezes sync
+- Product edits no longer undo sales; consistent ledger tie-breaker
+- Save a bill, its points and serials in one transaction
+- Plan: record removal of the duplicate test invoices in GBSAAIKRISH
+- Invoice numbers: work from numbers used, re-check at save
+- One totals calculator for screen, print and PDF; store points and round-off
+- One bill-line mapper; cash-memo consolidation keeps unit, factor, serials
+- Stage 1 hardening: safe backups, release gates, cloud and phone security fixes
