@@ -1,14 +1,30 @@
-BillingSoftware v1.0.50
+BillingSoftware v1.0.51
 
-Changes since v1.0.49:
-- CI: Dependabot PRs build the website without trying to deploy
-- Fix build: commit SqliteBackup.cs (was silently gitignored)
-- Phone: item and bill discounts on bills, before GST like the desktop
-- Phone: one bad shared-shop change no longer freezes sync
-- Product edits no longer undo sales; consistent ledger tie-breaker
-- Save a bill, its points and serials in one transaction
-- Plan: record removal of the duplicate test invoices in GBSAAIKRISH
-- Invoice numbers: work from numbers used, re-check at save
-- One totals calculator for screen, print and PDF; store points and round-off
-- One bill-line mapper; cash-memo consolidation keeps unit, factor, serials
-- Stage 1 hardening: safe backups, release gates, cloud and phone security fixes
+Changes since v1.0.50:
+- BillingService stops using the DbContext directly (ARC-01, first service)
+- Free each page when you leave it (ARC-02)
+- Report Dashboard and Sales stop loading every bill (PERF-01 done)
+- Load only what each screen needs instead of every invoice (PERF-01)
+- Docs: fix stale documents, add STATUS, archive the old lists (DOC-01, DOC-02)
+- Plan: O-10 closed, the tracked development database is test data
+- Stop tracking and shipping development databases and build output (REL-05)
+- Redesign the shared bill PDF: clean look, full GST tax invoice
+- Replace iTextSharp (AGPL) with PDFsharp/MigraDoc 6.2.4, MIT (REL-04)
+- Remove EPPlus, align EF tooling, pin patched packages (REL-04)
+- Cloud upload only after the owner turns it on, per business (FEAT-16)
+- Phone: EAS build profiles, crash reporting, CI checks (PH-06)
+- Commit the WEB-01 changes (the previous commit held only the robots.txt removal)
+- Website: one place for the site address, launch placeholder check (WEB-01)
+- Admin endpoints: lockout, refusal logging, audit trail (SEC-19)
+- Shared shop: check every change from other phones (SEC-21)
+- Phone: persistent PIN lockout, no Google backup, signed Pro (SEC-20)
+- Dashboard CSP, real sign-out, stricter session tokens (SEC-10)
+- Dashboard rows: no inline onclick, escape every API string (SEC-09)
+- Encrypt integration secrets and off-PC backups (SEC-12)
+- Tamper-evident audit log: hash chain, integrity check, restore entry
+- Commit the new LoginThrottle (git mv had staged the old version)
+- Complete the login-lockout change: login screen, tests, docs
+- Login lockout survives an app restart and grows with repeated lockouts
+- Release builds ship with licensing and cloud sync switched on
+- Enforce staff roles in services and navigation, not just the sidebar
+- Dashboard and sidebar hints show the new F-key shortcuts
