@@ -1,4 +1,11 @@
-BillingSoftware v1.0.52
+BillingSoftware v1.0.53
 
-Changes since v1.0.51:
-- STATUS: record the merge to master and what is left
+Changes since v1.0.52:
+- Discount Offers: slabs, sales, customer-type rates and coupons (FEAT-09)
+- Stock Adjustment screen: count stock, Excel count sheet, write-offs (FEAT-07)
+- Make the invoice ConsolidatedInvoiceId index partial (PERF-03)
+- Docs: ARC-01 paused on purpose, every money-moving service is done
+- Printer Config, Purchase Deletion and E-Way Bill stop using the DbContext (ARC-01)
+- Ledger payments, Cash Register and Product Serial stop using the DbContext (ARC-01)
+- Credit Note and Debit Note services stop using the DbContext (ARC-01)
+- Quotation and Delivery Challan services stop using the DbContext (ARC-01)
