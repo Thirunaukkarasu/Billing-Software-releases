@@ -1,8 +1,13 @@
-BillingSoftware v1.0.57
+BillingSoftware v2.0.0
 
-Changes since v1.0.56:
-- Deployment doc: the live API is a Windows App Service; stack is netFrameworkVersion v10.0
-- Cloud API: move to .NET 10 LTS and EF Core 10 (REL-04)
-- Bump expo from 58.0.22 to 58.0.23 in /MobileApp
-- Bump expo-splash-screen from 58.0.12 to 58.0.13 in /MobileApp
-- Bump expo-constants from 58.0.14 to 58.0.15 in /MobileApp
+Changes since v1.0.57:
+- Desktop: move to .NET 10 LTS and EF Core 10 (REL-04)
+- GSTIN check on supplier and phone; lookup service off the DbContext
+- WIP: GSTIN check and NIC lookup on Add Customer (not built or tested yet)
+- Phone: long lists in pages, totals in SQL, one-row lookups (PH-04)
+- Cloud API: dashboard SQL tests on real Postgres (CLD-06)
+- Fix product-performance SQL rejected by Postgres (42803)
+- Phone pre-launch fixes (PH-07, PH-08, PH-10, PH-11, PH-12)
+- ClosedXML 0.104.2 -> 0.105.1 in both desktop projects (replaces Dependabot #69)
+- Quick security and release fixes (SEC-18, CLD-03, SEC-16, DAT-02, REL-01)
+- Testing backlog: Cloud API .NET 10 deploy is live; real-traffic checks still open [skip release]
