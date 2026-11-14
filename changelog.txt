@@ -1,7 +1,3 @@
-BillingSoftware v1.0.55
+BillingSoftware v1.0.56
 
-Changes since v1.0.54:
-- Docs: status after the 2026-11-14 merge and deploys; what is done and what is left [skip release]
-- Bump actions/setup-node from 4 to 7
-- Website deploy: build with Node 24 and upload the built site; skip upload on Dependabot PRs [skip release]
-- Bump expo-constants from 58.0.14 to 58.0.15 in /MobileApp
+Changes since v1.0.55:
