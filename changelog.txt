@@ -1,4 +1,5 @@
 BillingSoftware v1.0.56
 
 Changes since v1.0.55:
+- Bump expo from 58.0.22 to 58.0.23 in /MobileApp
 - Bump expo-splash-screen from 58.0.12 to 58.0.13 in /MobileApp
