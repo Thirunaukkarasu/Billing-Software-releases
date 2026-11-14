@@ -1,5 +1,8 @@
-BillingSoftware v1.0.56
+BillingSoftware v1.0.57
 
-Changes since v1.0.55:
+Changes since v1.0.56:
+- Deployment doc: the live API is a Windows App Service; stack is netFrameworkVersion v10.0
+- Cloud API: move to .NET 10 LTS and EF Core 10 (REL-04)
 - Bump expo from 58.0.22 to 58.0.23 in /MobileApp
 - Bump expo-splash-screen from 58.0.12 to 58.0.13 in /MobileApp
+- Bump expo-constants from 58.0.14 to 58.0.15 in /MobileApp
