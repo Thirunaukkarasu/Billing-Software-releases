@@ -1,15 +1,15 @@
-BillingSoftware v2.1.0
+BillingSoftware v2.1.1
 
-Changes since v2.0.0:
-- Docs: point at Shared/pricing.json instead of writing price figures [skip release]
-- FEAT-04: one price list (Shared/pricing.json) for the website, cloud checkout and phone app
-- Text contrast sweep: readable accent text in dark theme, badge fills, WhatsApp/amber text, KPI cards
-- Sidebar: readable Go back, Log out and business name; muted shell text one shade lighter
-- Print preview: readable Cancel button on the dark header
-- Print preview: fit 1366x768 screens; left panel scrolls, zoom no longer applied twice
-- Testing backlog: a must-try-before-launch list [skip release]
-- Quick Billing: keep typed rates and store the charged rate; header and WhatsApp settings layout
-- Phone: align Expo packages with SDK 58 (expo install --fix)
-- Phone: place of supply on bills, sign-in prompt for stuck queues (PH-07, PH-08)
-- Plan: drop DAT-10; the two old April databases are test data (owner, 2026-11-14) [skip release]
-- Quick Billing: offer Discard when leaving an unsaved bill
+Changes since v2.1.0:
+- Bulk Import: create missing categories instead of skipping the row
+- ConfirmationDialog: scroll long messages, Esc closes OK-only dialogs
+- Fix product template download: long category/unit dropdowns use Reference sheet range
+- Website: set the company number as the WhatsApp number and support phone
+- Scheduled backup counts from the last automatic backup, not from app start
+- Noticed items: purchase GST type from supplier state, square tags, cash memo wording, PDF items total
+- Docs: website leads guide (trial sign-up, notification email, admin Leads page) [skip release]
+- Dashboard: admin-only Leads page, signed in with the API admin key
+- Launch check 2: rupee sign in payment messages, purchase saved wording, refund mode label
+- Free-trial sign-up before download: collect trial leads
+- contact Form fix
+- Launch check fixes: customer picker, tax-by-rate rounding, unpaid status, walk-in points, backup and staff screens
