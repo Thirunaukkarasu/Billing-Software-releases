@@ -1,13 +1,15 @@
-BillingSoftware v2.0.0
+BillingSoftware v2.1.0
 
-Changes since v1.0.57:
-- Desktop: move to .NET 10 LTS and EF Core 10 (REL-04)
-- GSTIN check on supplier and phone; lookup service off the DbContext
-- WIP: GSTIN check and NIC lookup on Add Customer (not built or tested yet)
-- Phone: long lists in pages, totals in SQL, one-row lookups (PH-04)
-- Cloud API: dashboard SQL tests on real Postgres (CLD-06)
-- Fix product-performance SQL rejected by Postgres (42803)
-- Phone pre-launch fixes (PH-07, PH-08, PH-10, PH-11, PH-12)
-- ClosedXML 0.104.2 -> 0.105.1 in both desktop projects (replaces Dependabot #69)
-- Quick security and release fixes (SEC-18, CLD-03, SEC-16, DAT-02, REL-01)
-- Testing backlog: Cloud API .NET 10 deploy is live; real-traffic checks still open [skip release]
+Changes since v2.0.0:
+- Docs: point at Shared/pricing.json instead of writing price figures [skip release]
+- FEAT-04: one price list (Shared/pricing.json) for the website, cloud checkout and phone app
+- Text contrast sweep: readable accent text in dark theme, badge fills, WhatsApp/amber text, KPI cards
+- Sidebar: readable Go back, Log out and business name; muted shell text one shade lighter
+- Print preview: readable Cancel button on the dark header
+- Print preview: fit 1366x768 screens; left panel scrolls, zoom no longer applied twice
+- Testing backlog: a must-try-before-launch list [skip release]
+- Quick Billing: keep typed rates and store the charged rate; header and WhatsApp settings layout
+- Phone: align Expo packages with SDK 58 (expo install --fix)
+- Phone: place of supply on bills, sign-in prompt for stuck queues (PH-07, PH-08)
+- Plan: drop DAT-10; the two old April databases are test data (owner, 2026-11-14) [skip release]
+- Quick Billing: offer Discard when leaving an unsaved bill
