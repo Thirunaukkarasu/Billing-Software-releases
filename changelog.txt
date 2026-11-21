@@ -1,15 +1,25 @@
-BillingSoftware v2.1.1
+BillingSoftware v2.2.0
 
-Changes since v2.1.0:
-- Bulk Import: create missing categories instead of skipping the row
-- ConfirmationDialog: scroll long messages, Esc closes OK-only dialogs
-- Fix product template download: long category/unit dropdowns use Reference sheet range
-- Website: set the company number as the WhatsApp number and support phone
-- Scheduled backup counts from the last automatic backup, not from app start
-- Noticed items: purchase GST type from supplier state, square tags, cash memo wording, PDF items total
-- Docs: website leads guide (trial sign-up, notification email, admin Leads page) [skip release]
-- Dashboard: admin-only Leads page, signed in with the API admin key
-- Launch check 2: rupee sign in payment messages, purchase saved wording, refund mode label
-- Free-trial sign-up before download: collect trial leads
-- contact Form fix
-- Launch check fixes: customer picker, tax-by-rate rounding, unpaid status, walk-in points, backup and staff screens
+Changes since v2.1.1:
+- Desktop: Data Import, E-Invoice and Report off the DbContext (ARC-01)
+- Phone: Firebase app, auth and crashlytics to 27.1.1 together
+- Expo packages on SDK 58 versions; website zod from astro/zod
+- Phone app in Hindi and Tamil
+- Phone: edit and reject quotations; sample data on every screen; load test and fixes
+- Phone: staff purchases need "Add and edit items"; discounts on Pro documents
+- Sign in with Gmail on the phone app, with safeguards for two ways in
+- Phone quotations like the Windows app's; cloud quotation statuses, search and counts
+- Bump coverlet.collector from 6.0.0 to 10.1.1
+- Bump Anthropic from 13.8.0 to 13.9.0
+- Small fixes: Quick Add cancel prompt, sidebar sync, IGST width, proforma terms, 1200-wide clipping
+- Sidebar: Quotation and Quotations right under Quick Billing
+- Quotations list screen: count tiles, filters, open in Quotation, Excel export
+- Quotation: convert to invoice works, reload keeps discount and terms, Quick Billing line keys
+- Main-screen test pass fixes; rupees in lakh/crore on dashboards and reports
+- Search boxes: arrows and Enter work, no lost letters, invoice box stops renaming bills
+- Popups get one teal header; search-or-new combo boxes on product and purchase forms
+- Product search matches words in any order; bill import can read PDFs and add products
+- Purchase bill import: Load Bill File, BillImport tool, keep product prices on save
+- Bulk product import: run off the UI thread, show progress, clear tracker per row
+- Revert "Add the cloud test-data cleanup script and the 8 phone issue screenshots"
+- Add the cloud test-data cleanup script and the 8 phone issue screenshots
